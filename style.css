@@ -1,0 +1,75 @@
+/*
+Browser Compatibility plugin
+Created by Constantin Chirila with the help of Stack Overflow community
+
+You can change any style.
+*/
+
+.browserAlert {
+    width: 96%%;
+    padding: 1% 2%;
+    background: #df374b;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Open Sans';
+}
+
+.closeAlert {
+    width: 20px;
+    height: 20px;
+    background: #df374b;
+    text-align: center;
+    padding: 12px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.browserAlertCnt {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    color: #fff;
+    text-align: center;
+}
+
+.browserAlertCnt h1,
+.browserAlertCnt h2 {
+    font-family: 'Open Sans';
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.browserAlertCnt h2 {
+    font-size: 16px;
+    letter-spacing: -0.6px;
+}
+
+.iconContainer {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.iconContainer img {
+    max-width: 46px;
+}
+
+a.iconContainer:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+}
